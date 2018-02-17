@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{A29680A2-47F7-4E01-B5AA-CB1ABADB0ACA}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		info.html = info.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{6ED97212-D2AF-44FA-A515-3365702ADB43}"
+	ProjectSection(SolutionItems) = preProject
+		firstscript.js = firstscript.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{8B615FBA-0E21-4CF1-8480-5CC2299B5EEF}"
+	ProjectSection(SolutionItems) = preProject
+		standard.css = standard.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ED97212-D2AF-44FA-A515-3365702ADB43} = {A29680A2-47F7-4E01-B5AA-CB1ABADB0ACA}
+		{8B615FBA-0E21-4CF1-8480-5CC2299B5EEF} = {A29680A2-47F7-4E01-B5AA-CB1ABADB0ACA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00ECE9FA-5229-41A2-8308-CEEC9E837443}
+	EndGlobalSection
+EndGlobal
